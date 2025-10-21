@@ -2,7 +2,7 @@ name: mo-indivbustax-dev
 channels:
 - conda-forge
 dependencies:
-- python>=3.12
+- python>=3.12, <3.14
 - ipython
 - ipykernel
 - jupyter
@@ -15,7 +15,6 @@ dependencies:
 - pip:
   - policyengine-us
   - cost-of-capital-calculator
-  - taxcalc
   - bokeh_sampledata
   - selenium
   - geopandas
